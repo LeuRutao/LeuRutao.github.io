@@ -94,8 +94,8 @@
 <meta property="og:image" content="http://ww3.sinaimg.cn/large/006tNc79gy1g3jnwl0oynj30r801ut8s.jpg">
 <meta property="og:image" content="http://ww3.sinaimg.cn/large/006tNc79gy1g3jo3bytwxj30is078q3d.jpg">
 <meta property="og:image" content="http://ww4.sinaimg.cn/large/006tNc79gy1g3jo8yqvdjj31r80tun2v.jpg">
-<meta property="og:image" content="http://ww1.sinaimg.cn/large/006tNc79gy1g3joelw6ytj31gr0u045j.jpg">
-<meta property="og:updated_time" content="2019-05-30T13:48:46.212Z">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/006tNc79gy1g3jp0mflymj31hm0u0tg2.jpg">
+<meta property="og:updated_time" content="2019-05-30T14:05:03.238Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="爬取拉勾网的爬虫相关职位的数据">
 <meta name="twitter:description" content="用requests请求拉勾网，并将爬取到的数据存储到MongoDB中。">
@@ -443,7 +443,7 @@
 <p><img src="http://ww4.sinaimg.cn/large/006tNc79gy1g3jo8yqvdjj31r80tun2v.jpg" alt></p>
 <p>​    然后我想了想，应该是拉钩网的反爬机制限制同一个cookie来短时间内多次请求。既然这样，我可以每爬一页前用requests获取一个新的cookie来请求。</p>
 <p>​    因为需要用搜索首页的cookie所以就用requests请求搜索首页，获取到的cookie放到请求搜索页中的请求中。</p>
-<p><img src="http://ww1.sinaimg.cn/large/006tNc79gy1g3joelw6ytj31gr0u045j.jpg" alt></p>
+<p><img src="http://ww1.sinaimg.cn/large/006tNc79gy1g3jp0mflymj31hm0u0tg2.jpg" alt></p>
 <p>​    这样每爬一页都用新的cookie就不怕cookie过期了。</p>
 <p>​    可是～～～愉快的爬了几个职位信息之后，发现我的ip被禁了，现在的网站反爬太多了。这里就需要换新的ip来爬了，我们可以构建自己的ip池，当ip被禁了之后，从IP池中取出一个新的ip来爬取网页。这部分后面再说，今天先这样啦～掰掰</p>
 
