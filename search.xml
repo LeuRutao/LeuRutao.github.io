@@ -14,7 +14,7 @@
   <entry>
     <title><![CDATA[测试文章]]></title>
     <url>%2F2019%2F05%2F27%2F%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0%2F</url>
-    <content type="text"><![CDATA[这是一篇测试文章，欢迎关注我的博客[1]: https://LeuRutao.github.io/]]></content>
+    <content type="text"><![CDATA[这是一篇测试文章，欢迎关注我的博客: https://LeuRutao.github.io/]]></content>
       <categories>
         <category>测试</category>
       </categories>
